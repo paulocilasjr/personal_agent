@@ -1772,15 +1772,23 @@ p {
   }
 
   .background-feature-copy {
-    max-width: 19rem;
+    max-width: none;
   }
 
   .background-feature-ghost {
-    left: 0;
-    right: 0;
-    width: 100%;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: calc(100% + 2.7rem);
+    max-width: none;
+    height: auto;
+    margin: -1.35rem -1.35rem 1rem;
     opacity: 0.14;
     transform: none;
+    object-fit: contain;
+    object-position: center top;
   }
 
   .hero-aside,
