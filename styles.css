@@ -179,8 +179,8 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 3.15rem;
+  height: 3.15rem;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: rgba(200, 169, 107, 0.08);

@@ -4,7 +4,7 @@ const translations = {
     "meta.description":
       "Planejamento patrimonial com visão de longo prazo, proteção familiar e elegância para quem deseja construir um futuro mais seguro.",
     "brand.homeAria": "Voltar ao topo",
-    "brand.logoAlt": "Logo Soprani Financial",
+    "brand.logoAlt": "Retrato de Tatyane Soprani",
     "brand.role": "Financial Agent",
     "lang.switchAria": "Alternar idioma",
     "nav.aria": "Navegação principal",
@@ -20,7 +20,7 @@ const translations = {
     "footer.note":
       "Planejamento patrimonial com foco em proteção familiar, legado e decisões de longo prazo.",
     "footer.rights": "Soprani Financial. Todos os direitos reservados.",
-    "header.cta": "Agendar uma conversa",
+    "header.cta": "Agendar consultoria gratuita",
     "home.floatingTop": "Voltar ao topo",
     "hero.eyebrow": "Patrimônio, família e legado",
     "hero.title":
@@ -31,7 +31,7 @@ const translations = {
     "hero.benefit2": "Quase 10 anos no mercado financeiro",
     "hero.benefit3": "Atendimento em português e inglês",
     "hero.ctaLabel": "Comece por aqui",
-    "hero.ctaPrimary": "Agendar uma conversa",
+    "hero.ctaPrimary": "Agendar consultoria gratuita",
     "hero.ctaSecondary": "Conhecer as soluções",
     "hero.ctaNote":
       "Conversa inicial em português ou inglês para entender seu momento e indicar a solução mais adequada para você.",
@@ -100,28 +100,28 @@ const translations = {
     "solutions.lead":
       "Cada solução responde a uma preocupação real: proteção familiar, patrimônio em dólar, educação dos filhos e independência financeira na aposentadoria.",
     "solutions.card1Kicker": "Proteção familiar",
-    "solutions.card1Title": "Seguro de vida com benefício em vida",
+    "solutions.card1Title": "SEGURO DE VIDA COM BENEFÍCIO EM VIDA",
     "solutions.card1Body":
       "Uma estrutura pensada para proteger quem você ama e trazer mais tranquilidade financeira, com cobertura e benefícios em vida em situações previstas pelo produto.",
     "solutions.card1Tag1": "Proteção para a família",
     "solutions.card1Tag2": "Mais previsibilidade",
     "solutions.card1Tag3": "Segurança em diferentes fases",
     "solutions.card2Kicker": "Proteção patrimonial",
-    "solutions.card2Title": "Dolarização",
+    "solutions.card2Title": "DOLARIZAÇÃO",
     "solutions.card2Body":
-      "Estratégias para dolarizar parte do patrimônio com foco em longo prazo, proteção cambial e soluções atreladas a índices como o S&P 500.",
+      "Planejamento para alocar parte do patrimônio em dólar, combinando proteção cambial, crescimento consistente e acesso a estruturas consolidadas no mercado americano.",
     "solutions.card2Tag1": "Patrimônio em dólar",
     "solutions.card2Tag2": "Visão de longo prazo",
     "solutions.card2Tag3": "Proteção cambial",
     "solutions.card3Kicker": "Futuro educacional",
-    "solutions.card3Title": "College Plan",
+    "solutions.card3Title": "COLLEGE PLAN",
     "solutions.card3Body":
       "Um plano pensado para ajudar a construir o futuro acadêmico dos filhos com organização, acessibilidade e menos pressão no orçamento lá na frente.",
     "solutions.card3Tag1": "Faculdade com planejamento",
     "solutions.card3Tag2": "Aportes sob medida",
     "solutions.card3Tag3": "Começar cedo faz diferença",
     "solutions.card4Kicker": "Independência financeira",
-    "solutions.card4Title": "Plano de aposentadoria",
+    "solutions.card4Title": "PLANO DE APOSENTADORIA",
     "solutions.card4Body":
       "Opções para construir aposentadoria privada nos Estados Unidos com antecedência, disciplina e visão estratégica, inclusive para muitas realidades imigratórias.",
     "solutions.card4Tag1": "Planejamento de longo prazo",
@@ -221,7 +221,7 @@ const translations = {
       "Uma base técnica e humana para orientar decisões importantes com mais segurança.",
     "about.hero.lead":
       "Esta página existe para mostrar, com mais profundidade, quem eu sou, quais fundamentos sustentam o meu trabalho e como conduzo cada orientação com clareza, responsabilidade e proximidade.",
-    "about.hero.ctaPrimary": "Agendar uma conversa",
+    "about.hero.ctaPrimary": "Agendar consultoria gratuita",
     "about.hero.ctaSecondary": "Ver soluções",
     "about.hero.cardLabel": "Visão geral",
     "about.hero.cardBody":
@@ -263,7 +263,7 @@ const translations = {
       "Se quiser entender qual solução faz sentido para você, vamos conversar.",
     "about.cta.body":
       "Depois de conhecer minha trajetória e minha forma de trabalho, o próximo passo é simples: me enviar uma mensagem para avaliarmos o seu momento com clareza.",
-    "about.cta.primary": "Agendar uma conversa",
+    "about.cta.primary": "Agendar consultoria gratuita",
     "about.cta.secondary": "Voltar para a página inicial",
     "about.floatingBack": "Voltar ao início",
   },
@@ -272,7 +272,7 @@ const translations = {
     "meta.description":
       "Long-term asset planning, family protection, and refined guidance for people who want to build a more secure future.",
     "brand.homeAria": "Back to top",
-    "brand.logoAlt": "Soprani Financial logo",
+    "brand.logoAlt": "Portrait of Tatyane Soprani",
     "brand.role": "Financial Agent",
     "lang.switchAria": "Switch language",
     "nav.aria": "Primary navigation",
@@ -288,7 +288,7 @@ const translations = {
     "footer.note":
       "Asset planning focused on family protection, legacy, and long-term decisions.",
     "footer.rights": "Soprani Financial. All rights reserved.",
-    "header.cta": "Schedule a conversation",
+    "header.cta": "Schedule a free consultation",
     "home.floatingTop": "Back to top",
     "hero.eyebrow": "Assets, family, and legacy",
     "hero.title":
@@ -299,7 +299,7 @@ const translations = {
     "hero.benefit2": "Nearly 10 years in financial markets",
     "hero.benefit3": "Guidance in Portuguese and English",
     "hero.ctaLabel": "Start here",
-    "hero.ctaPrimary": "Schedule a conversation",
+    "hero.ctaPrimary": "Schedule a free consultation",
     "hero.ctaSecondary": "See the solutions",
     "hero.ctaNote":
       "An initial conversation in Portuguese or English to understand your moment and point you toward the right solution.",
@@ -369,28 +369,28 @@ const translations = {
     "solutions.lead":
       "Each solution responds to a real concern: family protection, assets in dollars, children's education, and financial independence in retirement.",
     "solutions.card1Kicker": "Family protection",
-    "solutions.card1Title": "Life insurance with living benefits",
+    "solutions.card1Title": "LIFE INSURANCE WITH LIVING BENEFITS",
     "solutions.card1Body":
       "A structure designed to protect the people you love and bring more financial peace of mind, with coverage and living benefits in situations covered by the product.",
     "solutions.card1Tag1": "Family protection",
     "solutions.card1Tag2": "More predictability",
     "solutions.card1Tag3": "Security across life stages",
     "solutions.card2Kicker": "Asset protection",
-    "solutions.card2Title": "Dollarization",
+    "solutions.card2Title": "DOLLARIZATION",
     "solutions.card2Body":
       "Strategies to hold part of your assets in dollars with a long-term view, currency protection, and solutions linked to indexes such as the S&P 500.",
     "solutions.card2Tag1": "Assets in dollars",
     "solutions.card2Tag2": "Long-term vision",
     "solutions.card2Tag3": "Currency protection",
     "solutions.card3Kicker": "Educational future",
-    "solutions.card3Title": "College Plan",
+    "solutions.card3Title": "COLLEGE PLAN",
     "solutions.card3Body":
       "A plan designed to help build your children's academic future with organization, accessibility, and less pressure on the family budget later on.",
     "solutions.card3Tag1": "College with planning",
     "solutions.card3Tag2": "Tailored contributions",
     "solutions.card3Tag3": "Starting early matters",
     "solutions.card4Kicker": "Financial independence",
-    "solutions.card4Title": "Retirement plan",
+    "solutions.card4Title": "RETIREMENT PLAN",
     "solutions.card4Body":
       "Options to build private retirement in the United States with lead time, discipline, and strategic vision, including for many immigration realities.",
     "solutions.card4Tag1": "Long-term planning",
@@ -490,7 +490,7 @@ const translations = {
       "A technical and human foundation for guiding important decisions with more security.",
     "about.hero.lead":
       "This page exists to show, in more depth, who I am, which foundations support my work, and how I guide each recommendation with clarity, responsibility, and proximity.",
-    "about.hero.ctaPrimary": "Schedule a conversation",
+    "about.hero.ctaPrimary": "Schedule a free consultation",
     "about.hero.ctaSecondary": "See solutions",
     "about.hero.cardLabel": "Overview",
     "about.hero.cardBody":
@@ -533,7 +533,7 @@ const translations = {
       "If you want to understand which solution fits you best, let's talk.",
     "about.cta.body":
       "After getting to know my background and the way I work, the next step is simple: send me a message so we can evaluate your current moment with clarity.",
-    "about.cta.primary": "Schedule a conversation",
+    "about.cta.primary": "Schedule a free consultation",
     "about.cta.secondary": "Back to the home page",
     "about.floatingBack": "Back to home",
   },
