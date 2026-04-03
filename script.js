@@ -121,7 +121,7 @@ const translations = {
     "solutions.card3Tag2": "Aportes sob medida",
     "solutions.card3Tag3": "Começar cedo faz diferença",
     "solutions.card4Kicker": "Independência financeira",
-    "solutions.card4Title": "PLANO DE APOSENTADORIA",
+    "solutions.card4Title": "PLANEJAMENTO PARA APOSENTADORIA",
     "solutions.card4Body":
       "Estratégias para construção de renda no longo prazo com mais segurança e previsibilidade, utilizando soluções estruturadas no mercado americano como complemento à sua aposentadoria.",
     "solutions.card4Tag1": "Planejamento de longo prazo",

@@ -1776,11 +1776,11 @@ p {
   }
 
   .background-feature-ghost {
-    left: 50%;
-    right: auto;
-    width: min(62%, 14rem);
+    left: 0;
+    right: 0;
+    width: 100%;
     opacity: 0.14;
-    transform: translate(-50%, 4%);
+    transform: none;
   }
 
   .hero-aside,
