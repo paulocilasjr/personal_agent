@@ -1668,10 +1668,17 @@ p {
     align-items: flex-start;
   }
 
-  .site-controls,
-  .site-actions {
+  .site-controls {
     display: grid;
     gap: 0.9rem;
+    width: 100%;
+  }
+
+  .site-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.75rem;
     width: 100%;
   }
 
@@ -1680,8 +1687,23 @@ p {
     gap: 0.85rem 1rem;
   }
 
+  .language-switcher {
+    order: 2;
+    justify-self: end;
+  }
+
+  .lang-button {
+    min-width: 2.65rem;
+    padding: 0.52rem 0.68rem;
+  }
+
   .header-cta {
-    width: 100%;
+    order: 1;
+    width: auto;
+    min-height: 3rem;
+    padding-inline: 1rem;
+    white-space: normal;
+    text-align: center;
   }
 
   .footer-logo-card {
@@ -1709,9 +1731,7 @@ p {
   }
 
   .floating-top-button {
-    right: 0.85rem;
-    bottom: 0.85rem;
-    width: calc(100% - 1.7rem);
+    display: none;
   }
 
   .hero-cta-frame {

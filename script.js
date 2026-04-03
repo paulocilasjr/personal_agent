@@ -1,11 +1,11 @@
 const translations = {
   pt: {
-    "meta.title": "Tatyane Soprani | Agente Life Planner",
+    "meta.title": "Tatyane Soprani | Financial Agent",
     "meta.description":
       "Planejamento patrimonial com visão de longo prazo, proteção familiar e elegância para quem deseja construir um futuro mais seguro.",
     "brand.homeAria": "Voltar ao topo",
     "brand.logoAlt": "Logo Soprani Financial",
-    "brand.role": "Agente Life Planner",
+    "brand.role": "Financial Agent",
     "lang.switchAria": "Alternar idioma",
     "nav.aria": "Navegação principal",
     "nav.home": "Início",
@@ -268,12 +268,12 @@ const translations = {
     "about.floatingBack": "Voltar ao início",
   },
   en: {
-    "meta.title": "Tatyane Soprani | Life Planner Agent",
+    "meta.title": "Tatyane Soprani | Financial Agent",
     "meta.description":
       "Long-term asset planning, family protection, and refined guidance for people who want to build a more secure future.",
     "brand.homeAria": "Back to top",
     "brand.logoAlt": "Soprani Financial logo",
-    "brand.role": "Life Planner Agent",
+    "brand.role": "Financial Agent",
     "lang.switchAria": "Switch language",
     "nav.aria": "Primary navigation",
     "nav.home": "Home",
