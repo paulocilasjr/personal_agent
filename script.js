@@ -4,6 +4,7 @@ const translations = {
     "meta.description":
       "Planejamento patrimonial com visão de longo prazo, proteção familiar e elegância para quem deseja construir um futuro mais seguro.",
     "brand.homeAria": "Voltar ao topo",
+    "brand.logoAlt": "Logo Soprani Financial",
     "brand.role": "Agente Life Planner",
     "lang.switchAria": "Alternar idioma",
     "nav.aria": "Navegação principal",
@@ -13,6 +14,12 @@ const translations = {
     "nav.process": "Processo",
     "nav.faq": "FAQ",
     "nav.contact": "Contato",
+    "footer.navTitle": "Navegação",
+    "footer.navAria": "Navegação do rodapé",
+    "footer.contactTitle": "Contato",
+    "footer.note":
+      "Planejamento patrimonial com foco em proteção familiar, legado e decisões de longo prazo.",
+    "footer.rights": "Soprani Financial. Todos os direitos reservados.",
     "header.cta": "Agendar uma conversa",
     "home.floatingTop": "Voltar ao topo",
     "hero.eyebrow": "Patrimônio, família e legado",
@@ -214,7 +221,7 @@ const translations = {
       "Uma base técnica e humana para orientar decisões importantes com mais segurança.",
     "about.hero.lead":
       "Esta página existe para mostrar, com mais profundidade, quem eu sou, quais fundamentos sustentam o meu trabalho e como conduzo cada orientação com clareza, responsabilidade e proximidade.",
-    "about.hero.ctaPrimary": "Abrir WhatsApp",
+    "about.hero.ctaPrimary": "Agendar uma conversa",
     "about.hero.ctaSecondary": "Ver soluções",
     "about.hero.cardLabel": "Visão geral",
     "about.hero.cardBody":
@@ -256,7 +263,7 @@ const translations = {
       "Se quiser entender qual solução faz sentido para você, vamos conversar.",
     "about.cta.body":
       "Depois de conhecer minha trajetória e minha forma de trabalho, o próximo passo é simples: me enviar uma mensagem para avaliarmos o seu momento com clareza.",
-    "about.cta.primary": "Abrir WhatsApp",
+    "about.cta.primary": "Agendar uma conversa",
     "about.cta.secondary": "Voltar para a página inicial",
     "about.floatingBack": "Voltar ao início",
   },
@@ -265,6 +272,7 @@ const translations = {
     "meta.description":
       "Long-term asset planning, family protection, and refined guidance for people who want to build a more secure future.",
     "brand.homeAria": "Back to top",
+    "brand.logoAlt": "Soprani Financial logo",
     "brand.role": "Life Planner Agent",
     "lang.switchAria": "Switch language",
     "nav.aria": "Primary navigation",
@@ -274,6 +282,12 @@ const translations = {
     "nav.process": "Process",
     "nav.faq": "FAQ",
     "nav.contact": "Contact",
+    "footer.navTitle": "Navigation",
+    "footer.navAria": "Footer navigation",
+    "footer.contactTitle": "Contact",
+    "footer.note":
+      "Asset planning focused on family protection, legacy, and long-term decisions.",
+    "footer.rights": "Soprani Financial. All rights reserved.",
     "header.cta": "Schedule a conversation",
     "home.floatingTop": "Back to top",
     "hero.eyebrow": "Assets, family, and legacy",
@@ -476,7 +490,7 @@ const translations = {
       "A technical and human foundation for guiding important decisions with more security.",
     "about.hero.lead":
       "This page exists to show, in more depth, who I am, which foundations support my work, and how I guide each recommendation with clarity, responsibility, and proximity.",
-    "about.hero.ctaPrimary": "Open WhatsApp",
+    "about.hero.ctaPrimary": "Schedule a conversation",
     "about.hero.ctaSecondary": "See solutions",
     "about.hero.cardLabel": "Overview",
     "about.hero.cardBody":
@@ -519,7 +533,7 @@ const translations = {
       "If you want to understand which solution fits you best, let's talk.",
     "about.cta.body":
       "After getting to know my background and the way I work, the next step is simple: send me a message so we can evaluate your current moment with clarity.",
-    "about.cta.primary": "Open WhatsApp",
+    "about.cta.primary": "Schedule a conversation",
     "about.cta.secondary": "Back to the home page",
     "about.floatingBack": "Back to home",
   },
@@ -535,6 +549,7 @@ const contactForm = document.querySelector("[data-contact-form]");
 const contactFormError = contactForm?.querySelector("[data-form-error]");
 const contactFormSuccess = contactForm?.querySelector("[data-form-success]");
 const contactFormSubmitButton = contactForm?.querySelector("[data-form-submit]");
+const currentYearNodes = document.querySelectorAll("[data-current-year]");
 
 const readStoredLanguage = () => {
   try {
@@ -617,6 +632,13 @@ const setContactFormFeedback = (type, messageKey = "") => {
   target.hidden = false;
 };
 
+const setCurrentYear = () => {
+  const year = String(new Date().getFullYear());
+  currentYearNodes.forEach((node) => {
+    node.textContent = year;
+  });
+};
+
 const setFloatingTopButtonVisibility = (isVisible) => {
   if (!floatingTopButton) return;
 
@@ -645,6 +667,7 @@ const initialLanguage = (() => {
 })();
 
 applyLanguage(initialLanguage);
+setCurrentYear();
 updateFloatingTopButtonVisibility();
 
 window.addEventListener("scroll", updateFloatingTopButtonVisibility, { passive: true });
@@ -675,7 +698,7 @@ if (contactForm) {
     payload.name = String(payload.name || "").trim();
     payload.message = String(payload.message || "").trim();
     payload.language = document.documentElement.lang;
-    payload.page = "landing-page-contact-form";
+    payload.page = contactForm.dataset.contactPage || "landing-page-contact-form";
 
     if (!payload.email) delete payload.email;
     if (!payload.phone) delete payload.phone;

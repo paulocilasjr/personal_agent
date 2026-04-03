@@ -38,7 +38,15 @@
           data-i18n="brand.homeAria"
           data-i18n-attr="aria-label"
         >
-          <span class="brand-mark">TS</span>
+          <span class="brand-mark">
+            <img
+              class="brand-mark-image"
+              src="assets/soprani-logo-dark.png"
+              alt="Logo Soprani Financial"
+              data-i18n="brand.logoAlt"
+              data-i18n-attr="alt"
+            />
+          </span>
           <span class="brand-copy">
             <strong>Tatyane Soprani</strong>
             <span data-i18n="brand.role">Agente Life Planner</span>
@@ -415,7 +423,7 @@
 
         <section class="faq section" id="faq" data-reveal>
           <div class="section-heading">
-            <p class="eyebrow eyebrow-dark" data-i18n="faq.eyebrow">FAQ</p>
+            <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
             <h2 data-i18n="faq.title">
               Remova as dúvidas antes da primeira conversa.
             </h2>
@@ -545,6 +553,7 @@
               method="POST"
               novalidate
               data-contact-form
+              data-contact-page="landing-page-contact-form"
             >
               <p class="panel-label" data-i18n="contact.formLabel">Mensagem direta</p>
               <h3 data-i18n="contact.formTitle">
@@ -639,6 +648,80 @@
           </div>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <div class="footer-main">
+          <a class="footer-brand-block" href="#top">
+            <span class="footer-logo-card">
+              <img src="assets/soprani-logo-light.png" alt="Logo Soprani Financial" />
+            </span>
+            <span class="footer-brand-copy">
+              <span class="footer-kicker">Soprani Financial</span>
+              <strong>Tatyane Soprani</strong>
+              <span data-i18n="brand.role">Agente Life Planner</span>
+            </span>
+          </a>
+
+          <p class="footer-note" data-i18n="footer.note">
+            Planejamento patrimonial com foco em proteção familiar, legado e decisões de
+            longo prazo.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-column">
+            <p class="footer-title" data-i18n="footer.navTitle">Navegação</p>
+            <nav
+              class="footer-nav"
+              aria-label="Navegação do rodapé"
+              data-i18n="footer.navAria"
+              data-i18n-attr="aria-label"
+            >
+              <a href="#top" data-i18n="nav.home">Início</a>
+              <a href="trajetoria.html" data-i18n="nav.story">Trajetória</a>
+              <a href="#solucoes" data-i18n="nav.solutions">Soluções</a>
+              <a href="#processo" data-i18n="nav.process">Processo</a>
+              <a href="#faq" data-i18n="nav.faq">FAQ</a>
+              <a href="#contato" data-i18n="nav.contact">Contato</a>
+            </nav>
+          </div>
+
+          <div class="footer-column">
+            <p class="footer-title" data-i18n="footer.contactTitle">Contato</p>
+            <div class="footer-contact-list">
+              <a
+                class="footer-contact-link"
+                href="https://api.whatsapp.com/send?phone=14072536557"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="contact.method1Kicker">WhatsApp</span>
+                <strong data-i18n="contact.method1Value">+1 (407) 253-6557</strong>
+              </a>
+              <a class="footer-contact-link" href="mailto:sopranitatyane@gmail.com">
+                <span data-i18n="contact.method2Kicker">Email</span>
+                <strong data-i18n="contact.method2Value">sopranitatyane@gmail.com</strong>
+              </a>
+              <a
+                class="footer-contact-link"
+                href="https://www.instagram.com/tatysoprani.agent/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="contact.method3Kicker">Instagram</span>
+                <strong data-i18n="contact.method3Value">@tatysoprani.agent</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-rights">
+            <span>&copy; <span data-current-year>2026</span></span>
+            <span data-i18n="footer.rights">Soprani Financial. Todos os direitos reservados.</span>
+          </p>
+        </div>
+      </footer>
     </div>
 
     <script src="script.js"></script>

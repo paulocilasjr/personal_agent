@@ -36,7 +36,15 @@
           data-i18n="brand.homeAria"
           data-i18n-attr="aria-label"
         >
-          <span class="brand-mark">TS</span>
+          <span class="brand-mark">
+            <img
+              class="brand-mark-image"
+              src="assets/soprani-logo-dark.png"
+              alt="Logo Soprani Financial"
+              data-i18n="brand.logoAlt"
+              data-i18n-attr="alt"
+            />
+          </span>
           <span class="brand-copy">
             <strong>Tatyane Soprani</strong>
             <span data-i18n="brand.role">Agente Life Planner</span>
@@ -55,7 +63,7 @@
             <a href="index.html#solucoes" data-i18n="nav.solutions">Soluções</a>
             <a href="index.html#processo" data-i18n="nav.process">Processo</a>
             <a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
-            <a href="index.html#contato" data-i18n="nav.contact">Contato</a>
+            <a href="#contato" data-i18n="nav.contact">Contato</a>
           </nav>
 
           <div class="site-actions">
@@ -116,7 +124,7 @@
                 target="_blank"
                 rel="noreferrer"
                 data-i18n="about.hero.ctaPrimary"
-                >Abrir WhatsApp</a
+                >Agendar uma conversa</a
               >
               <a class="button button-secondary" href="index.html#solucoes" data-i18n="about.hero.ctaSecondary"
                 >Ver soluções</a
@@ -125,14 +133,21 @@
           </div>
 
           <aside class="detail-card panel">
+            <div class="detail-portrait-stack">
+              <figure class="detail-portrait detail-portrait-primary">
+                <img
+                  src="assets/personal_img4.jpeg"
+                  alt="Retrato de Tatyane Soprani"
+                  data-i18n="hero.profileAlt"
+                  data-i18n-attr="alt"
+                />
+              </figure>
+              <figure class="detail-portrait detail-portrait-accent">
+                <img src="assets/personal_img3.jpeg" alt="" aria-hidden="true" loading="lazy" />
+              </figure>
+            </div>
+
             <div class="profile-header">
-              <img
-                class="profile-photo"
-                src="assets/tatyane-soprani-portrait.jpg"
-                alt="Retrato de Tatyane Soprani"
-                data-i18n="hero.profileAlt"
-                data-i18n-attr="alt"
-              />
               <div class="profile-identity">
                 <p class="profile-name">Tatyane Soprani</p>
                 <p class="profile-role" data-i18n="hero.profileRole">
@@ -172,7 +187,7 @@
 
         <section class="background section section-light" data-reveal>
           <div class="section-heading">
-            <p class="eyebrow eyebrow-dark" data-i18n="background.eyebrow">
+            <p class="eyebrow" data-i18n="background.eyebrow">
               Trajetória e credenciais
             </p>
             <h2 data-i18n="background.title">
@@ -187,22 +202,31 @@
 
           <div class="background-layout">
             <article class="background-feature">
-              <span class="proof-kicker" data-i18n="background.featureKicker"
-                >Quem está por trás do planejamento</span
-              >
-              <h3 data-i18n="background.featureTitle">
-                Técnica, sensibilidade e visão de longo prazo.
-              </h3>
-              <p data-i18n="background.featureBody1">
-                Sou brasileira, esposa e mãe da Antonella e da Julia. Há 7
-                anos, vivo nos Estados Unidos, onde continuo construindo minha
-                família e minha carreira.
-              </p>
-              <p data-i18n="background.featureBody2">
-                Hoje, licenciada nos Estados Unidos, ajudo famílias a proteger
-                seu patrimônio e a planejar o futuro com mais clareza,
-                continuidade e confiança.
-              </p>
+              <img
+                class="background-feature-ghost"
+                src="assets/personal_img1.jpeg"
+                alt=""
+                aria-hidden="true"
+                loading="lazy"
+              />
+              <div class="background-feature-copy">
+                <span class="proof-kicker" data-i18n="background.featureKicker"
+                  >Quem está por trás do planejamento</span
+                >
+                <h3 data-i18n="background.featureTitle">
+                  Técnica, sensibilidade e visão de longo prazo.
+                </h3>
+                <p data-i18n="background.featureBody1">
+                  Sou brasileira, esposa e mãe da Antonella e da Julia. Há 7
+                  anos, vivo nos Estados Unidos, onde continuo construindo minha
+                  família e minha carreira.
+                </p>
+                <p data-i18n="background.featureBody2">
+                  Hoje, licenciada nos Estados Unidos, ajudo famílias a proteger
+                  seu patrimônio e a planejar o futuro com mais clareza,
+                  continuidade e confiança.
+                </p>
+              </div>
             </article>
 
             <div class="background-grid">
@@ -297,13 +321,24 @@
         </section>
 
         <section class="section section-light" data-reveal>
-          <div class="section-heading">
-            <p class="eyebrow eyebrow-dark" data-i18n="about.work.eyebrow">
-              Como eu trabalho
-            </p>
-            <h2 data-i18n="about.work.title">
-              Uma forma de atendimento pensada para reduzir dúvidas e trazer direção.
-            </h2>
+          <div class="section-heading section-heading-with-media">
+            <div class="section-heading-copy">
+              <p class="eyebrow" data-i18n="about.work.eyebrow">
+                Como eu trabalho
+              </p>
+              <h2 data-i18n="about.work.title">
+                Uma forma de atendimento pensada para reduzir dúvidas e trazer direção.
+              </h2>
+            </div>
+            <figure class="section-heading-portrait">
+              <img
+                src="assets/personal_img2.jpeg"
+                alt="Retrato de Tatyane Soprani"
+                data-i18n="hero.profileAlt"
+                data-i18n-attr="alt"
+                loading="lazy"
+              />
+            </figure>
           </div>
 
           <div class="work-grid">
@@ -334,9 +369,9 @@
           </div>
         </section>
 
-        <section class="contact section" data-reveal>
+        <section class="contact section section-light" id="contato" data-reveal>
           <div class="contact-panel panel">
-            <div>
+            <div class="contact-copy">
               <p class="eyebrow" data-i18n="about.cta.eyebrow">Próximo passo</p>
               <h2 data-i18n="about.cta.title">
                 Se quiser entender qual solução faz sentido para você, vamos conversar.
@@ -346,27 +381,245 @@
                 próximo passo é simples: me enviar uma mensagem para avaliarmos
                 o seu momento com clareza.
               </p>
+
+              <div class="contact-trust">
+                <span class="contact-pill" data-i18n="contact.trust1"
+                  >Português e inglês</span
+                >
+                <span class="contact-pill" data-i18n="contact.trust2"
+                  >Estratégia personalizada</span
+                >
+                <span class="contact-pill" data-i18n="contact.trust3"
+                  >Foco em patrimônio familiar</span
+                >
+              </div>
+
+              <div class="contact-methods">
+                <a
+                  class="contact-method"
+                  href="https://api.whatsapp.com/send?phone=14072536557"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="contact-method-kicker" data-i18n="contact.method1Kicker"
+                    >WhatsApp</span
+                  >
+                  <strong data-i18n="contact.method1Value">+1 (407) 253-6557</strong>
+                  <p data-i18n="contact.method1Body">
+                    Ideal para agendar uma conversa com rapidez.
+                  </p>
+                </a>
+
+                <a class="contact-method" href="mailto:sopranitatyane@gmail.com">
+                  <span class="contact-method-kicker" data-i18n="contact.method2Kicker"
+                    >Email</span
+                  >
+                  <strong data-i18n="contact.method2Value">sopranitatyane@gmail.com</strong>
+                  <p data-i18n="contact.method2Body">
+                    Melhor para mensagens mais detalhadas e acompanhamento.
+                  </p>
+                </a>
+
+                <a
+                  class="contact-method"
+                  href="https://www.instagram.com/tatysoprani.agent/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="contact-method-kicker" data-i18n="contact.method3Kicker"
+                    >Instagram</span
+                  >
+                  <strong data-i18n="contact.method3Value">@tatysoprani.agent</strong>
+                  <p data-i18n="contact.method3Body">
+                    Acompanhe meu conteúdo e entre em contato por direct.
+                  </p>
+                </a>
+              </div>
+
+              <p class="contact-note" data-i18n="contact.note">
+                Uma página bonita chama atenção. O que fecha a decisão é
+                confiança. A conversa inicial existe para isso.
+              </p>
             </div>
 
-            <div class="contact-actions">
-              <a
-                class="button button-primary"
-                href="https://api.whatsapp.com/send?phone=14072536557"
-                target="_blank"
-                rel="noreferrer"
-                data-i18n="about.cta.primary"
-                >Abrir WhatsApp</a
-              >
-              <a
-                class="button button-secondary"
-                href="index.html"
-                data-i18n="about.cta.secondary"
-                >Voltar para a página inicial</a
-              >
-            </div>
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/ajax/sopranitatyane@gmail.com"
+              method="POST"
+              novalidate
+              data-contact-form
+              data-contact-page="about-page-contact-form"
+            >
+              <p class="panel-label" data-i18n="contact.formLabel">Mensagem direta</p>
+              <h3 data-i18n="contact.formTitle">
+                Escreva seu pedido de agendamento, sua dúvida ou o seu contexto.
+              </h3>
+              <p class="contact-form-intro" data-i18n="contact.formIntro">
+                Deixe telefone ou email para eu conseguir responder.
+              </p>
+
+              <input
+                type="hidden"
+                name="_subject"
+                value="Novo contato do site | Tatyane Soprani"
+                data-i18n="contact.formSubject"
+                data-i18n-attr="value"
+              />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="source" value="Pagina trajetoria" />
+              <input class="contact-honey" type="text" name="_honey" tabindex="-1" autocomplete="off" />
+
+              <div class="contact-form-grid">
+                <label class="contact-field">
+                  <span data-i18n="contact.nameLabel">Nome</span>
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    autocomplete="name"
+                    data-i18n="contact.namePlaceholder"
+                    data-i18n-attr="placeholder"
+                    placeholder="Seu nome"
+                  />
+                </label>
+
+                <label class="contact-field">
+                  <span data-i18n="contact.phoneLabel">Telefone</span>
+                  <input
+                    type="tel"
+                    name="phone"
+                    autocomplete="tel"
+                    data-i18n="contact.phonePlaceholder"
+                    data-i18n-attr="placeholder"
+                    placeholder="+1 (407) 000-0000"
+                  />
+                </label>
+
+                <label class="contact-field contact-field-full">
+                  <span data-i18n="contact.emailLabel">Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    data-i18n="contact.emailPlaceholder"
+                    data-i18n-attr="placeholder"
+                    placeholder="voce@exemplo.com"
+                  />
+                </label>
+
+                <label class="contact-field contact-field-full">
+                  <span data-i18n="contact.messageLabel">Mensagem</span>
+                  <textarea
+                    name="message"
+                    rows="6"
+                    required
+                    data-i18n="contact.messagePlaceholder"
+                    data-i18n-attr="placeholder"
+                    placeholder="Conte o que você quer organizar, proteger ou entender melhor."
+                  ></textarea>
+                </label>
+              </div>
+
+              <p class="contact-form-hint" data-i18n="contact.formHint">
+                Informe pelo menos um telefone ou um email para que eu possa responder.
+              </p>
+              <p class="contact-form-feedback is-error" data-form-error hidden></p>
+              <p class="contact-form-feedback is-success" data-form-success hidden></p>
+
+              <div class="contact-actions">
+                <button
+                  class="button button-primary contact-form-submit"
+                  type="submit"
+                  data-form-submit
+                  data-i18n="contact.formSubmit"
+                >
+                  Enviar mensagem
+                </button>
+                <a
+                  class="button button-secondary"
+                  href="index.html"
+                  data-i18n="about.cta.secondary"
+                  >Voltar para a página inicial</a
+                >
+              </div>
+            </form>
           </div>
         </section>
       </main>
+
+      <footer class="site-footer">
+        <div class="footer-main">
+          <a class="footer-brand-block" href="index.html">
+            <span class="footer-logo-card">
+              <img src="assets/soprani-logo-light.png" alt="Logo Soprani Financial" />
+            </span>
+            <span class="footer-brand-copy">
+              <span class="footer-kicker">Soprani Financial</span>
+              <strong>Tatyane Soprani</strong>
+              <span data-i18n="brand.role">Agente Life Planner</span>
+            </span>
+          </a>
+
+          <p class="footer-note" data-i18n="footer.note">
+            Planejamento patrimonial com foco em proteção familiar, legado e decisões de
+            longo prazo.
+          </p>
+        </div>
+
+        <div class="footer-links-grid">
+          <div class="footer-column">
+            <p class="footer-title" data-i18n="footer.navTitle">Navegação</p>
+            <nav
+              class="footer-nav"
+              aria-label="Navegação do rodapé"
+              data-i18n="footer.navAria"
+              data-i18n-attr="aria-label"
+            >
+              <a href="index.html" data-i18n="nav.home">Início</a>
+              <a href="trajetoria.html" data-i18n="nav.story">Trajetória</a>
+              <a href="index.html#solucoes" data-i18n="nav.solutions">Soluções</a>
+              <a href="index.html#processo" data-i18n="nav.process">Processo</a>
+              <a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
+              <a href="#contato" data-i18n="nav.contact">Contato</a>
+            </nav>
+          </div>
+
+          <div class="footer-column">
+            <p class="footer-title" data-i18n="footer.contactTitle">Contato</p>
+            <div class="footer-contact-list">
+              <a
+                class="footer-contact-link"
+                href="https://api.whatsapp.com/send?phone=14072536557"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="contact.method1Kicker">WhatsApp</span>
+                <strong data-i18n="contact.method1Value">+1 (407) 253-6557</strong>
+              </a>
+              <a class="footer-contact-link" href="mailto:sopranitatyane@gmail.com">
+                <span data-i18n="contact.method2Kicker">Email</span>
+                <strong data-i18n="contact.method2Value">sopranitatyane@gmail.com</strong>
+              </a>
+              <a
+                class="footer-contact-link"
+                href="https://www.instagram.com/tatysoprani.agent/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span data-i18n="contact.method3Kicker">Instagram</span>
+                <strong data-i18n="contact.method3Value">@tatysoprani.agent</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-rights">
+            <span>&copy; <span data-current-year>2026</span></span>
+            <span data-i18n="footer.rights">Soprani Financial. Todos os direitos reservados.</span>
+          </p>
+        </div>
+      </footer>
     </div>
 
     <script src="script.js"></script>
