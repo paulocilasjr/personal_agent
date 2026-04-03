@@ -109,7 +109,7 @@ const translations = {
     "solutions.card2Kicker": "Proteção patrimonial",
     "solutions.card2Title": "DOLARIZAÇÃO",
     "solutions.card2Body":
-      "Planejamento para alocar parte do patrimônio em dólar, combinando proteção cambial, crescimento consistente e acesso a estruturas consolidadas no mercado americano.",
+      "Planejamento para proteger e alocar parte do seu patrimônio em dólar, reduzindo a exposição ao risco cambial e trazendo mais segurança no longo prazo, com estratégias consolidadas no mercado americano para brasileiros que desejam estruturar e proteger seu capital fora do Brasil.",
     "solutions.card2Tag1": "Patrimônio em dólar",
     "solutions.card2Tag2": "Visão de longo prazo",
     "solutions.card2Tag3": "Proteção cambial",
@@ -123,7 +123,7 @@ const translations = {
     "solutions.card4Kicker": "Independência financeira",
     "solutions.card4Title": "PLANO DE APOSENTADORIA",
     "solutions.card4Body":
-      "Opções para construir aposentadoria privada nos Estados Unidos com antecedência, disciplina e visão estratégica, inclusive para muitas realidades imigratórias.",
+      "Estratégias para construção de renda no longo prazo com mais segurança e previsibilidade, utilizando soluções estruturadas no mercado americano como complemento à sua aposentadoria.",
     "solutions.card4Tag1": "Planejamento de longo prazo",
     "solutions.card4Tag2": "Tempo a seu favor",
     "solutions.card4Tag3": "Estrutura para o futuro",

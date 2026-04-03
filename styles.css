@@ -8,6 +8,8 @@
   --line: rgba(200, 169, 107, 0.28);
   --mist: rgba(247, 244, 238, 0.08);
   --shadow: 0 30px 90px rgba(4, 11, 18, 0.22);
+  --font-sans: "Manrope", sans-serif;
+  --font-display: "Cormorant Garamond", serif;
 }
 
 *,
@@ -18,12 +20,14 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-sans);
   color: var(--ivory);
   background:
     radial-gradient(circle at top left, rgba(200, 169, 107, 0.16), transparent 30%),
@@ -43,6 +47,13 @@ img {
 
 button {
   font: inherit;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  font-family: var(--font-sans);
 }
 
 .floating-back-button,
@@ -310,7 +321,7 @@ h3 {
 
 h1,
 h2 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--font-display);
   line-height: 0.95;
   letter-spacing: -0.03em;
 }
@@ -614,7 +625,7 @@ p {
   right: 1.5rem;
   bottom: 0.75rem;
   color: rgba(247, 244, 238, 0.05);
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--font-display);
   font-size: clamp(4rem, 12vw, 7rem);
   line-height: 1;
 }
@@ -825,7 +836,7 @@ p {
 
 .solution-name {
   margin-top: 0.9rem;
-  font-family: "Cormorant Garamond", serif;
+  font-family: var(--font-display);
   font-size: clamp(2rem, 3vw, 2.8rem);
   line-height: 0.98;
 }
